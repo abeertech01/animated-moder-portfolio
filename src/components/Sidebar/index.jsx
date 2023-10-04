@@ -4,7 +4,7 @@ import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faLinkedin,
@@ -37,7 +37,7 @@ const Sidebar = () => {
           className="contact-link"
           to={'/contact'}
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
       </nav>
       <ul>
